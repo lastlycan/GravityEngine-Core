@@ -1,0 +1,17 @@
+{
+  "name": "@gravityengine/core",
+  "version": "1.0.0",
+  "description": "Open Source Core for GravityEngine Salesforce Automation Swarm.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@playwright/test": "^1.43.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.4.5"
+  }
+}
